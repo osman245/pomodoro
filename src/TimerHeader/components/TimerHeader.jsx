@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import 'tachyons';
-import * as timerStates from '../../timerStates';
+
 
 class TimerHeader extends Component  {
 	
