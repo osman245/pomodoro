@@ -39,6 +39,10 @@ resumeTimer = this.resumeTimer.bind(this);
 
 startTimer() {
 
+  if(this.state.timer) {
+            clearInterval(this.state.timer);
+        }
+
     this.setState({
   timerState: timerStates.RUNNING,
     currentTime: moment.duration(25,"minutes"),
