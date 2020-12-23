@@ -165,6 +165,7 @@ return (
   startTimer = {this.startTimer} shortBreak = {this.shortBreak} longBreak = {this.longBreak} />
     <TimerButton resumeTimer = {this.resumeTimer} stopTimer = {this.stopTimer}/>
  
+
 <Sound
       url="pomodoro.mp4"
       playStatus={Sound.status.PLAYING}
@@ -173,6 +174,7 @@ return (
       onPlaying={this.handleSongPlaying}
       onFinishedPlaying={this.handleSongFinishedPlaying}
     />
+    
  
     
 
