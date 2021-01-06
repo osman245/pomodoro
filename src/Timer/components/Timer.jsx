@@ -160,25 +160,12 @@ completeTimer() {
 render() {
 
 return (
-<div className="">
      <TimerHeader  currentTime= {this.state.currentTime}
-  startTimer = {this.startTimer} shortBreak = {this.shortBreak} longBreak = {this.longBreak} />
-    <TimerButton resumeTimer = {this.resumeTimer} stopTimer = {this.stopTimer}/>
- 
-
-{/* <Sound
-      url="pomodoro.mp4"
-      playStatus={Sound.status.PLAYING}
-      playFromPosition={0 /* in milliseconds */}
-      {/* onLoading={this.handleSongLoading}
-      onPlaying={this.handleSongPlaying}
-      onFinishedPlaying={this.handleSongFinishedPlaying}
-    /> } */}
+  startTimer = {this.startTimer} shortBreak = {this.shortBreak} longBreak = {this.longBreak} resumeTimer = {this.resumeTimer} stopTimer = {this.stopTimer} />
     
  
-    
 
-     </div>
+
 );
 
 

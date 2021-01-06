@@ -7,12 +7,9 @@ class App extends Component {
 	render() {
 
   return ( 
-  	<div className="">
-    <h1 className="tc"> PomodoroTimer</h1>
-     <div className=" ">
+  
      <Timer />
-    </div>
-    </div>
+   
 
   );
 }
