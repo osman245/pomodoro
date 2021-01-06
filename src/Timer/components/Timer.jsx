@@ -4,7 +4,7 @@ import TimerHeader from '../../TimerHeader/components/TimerHeader';
 import TimerButton from '../../TimerButton/components/TimerButton';
 import * as timerStates from '../../timerStates';
 import moment from 'moment';
-import Sound from 'react-sound';
+// import Sound from 'react-sound';
 
 
 
@@ -160,20 +160,20 @@ completeTimer() {
 render() {
 
 return (
-<div className="ba br4">
+<div className="">
      <TimerHeader  currentTime= {this.state.currentTime}
   startTimer = {this.startTimer} shortBreak = {this.shortBreak} longBreak = {this.longBreak} />
     <TimerButton resumeTimer = {this.resumeTimer} stopTimer = {this.stopTimer}/>
  
 
-<Sound
+{/* <Sound
       url="pomodoro.mp4"
       playStatus={Sound.status.PLAYING}
       playFromPosition={0 /* in milliseconds */}
-      onLoading={this.handleSongLoading}
+      {/* onLoading={this.handleSongLoading}
       onPlaying={this.handleSongPlaying}
       onFinishedPlaying={this.handleSongFinishedPlaying}
-    />
+    /> } */}
     
  
     

@@ -10,9 +10,6 @@
     height: 100%;
 }
 
-.control-row {
-	margin-bottom: 16px;
-}
 
 
 @media (max-width: 650px) {
@@ -22,9 +19,7 @@
 }
 }
 
-.centr {
-	text-align:center;
-}
+
 
 .left {
   margin-left:38%;

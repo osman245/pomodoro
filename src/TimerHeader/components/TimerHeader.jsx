@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import 'tachyons';
 
 
+
 class TimerHeader extends Component  {
 	
 	render() {
@@ -17,8 +18,8 @@ const leftPad = (val) => {
 return (
 <div >
 <div className= "dib left pa2 m2">
-<button className="light-red br3 pa3" onClick={this.props.startTimer}>Pomodoro</button>
-<button className="light-red br3 pa3"  onClick={this.props.shortBreak}>Short Break</button>
+<button type ="button" className=" br3 pa3" onClick={this.props.startTimer}>Pomodoro</button>
+<button className="btn btn-primary br3 pa3"  onClick={this.props.shortBreak}>Short Break</button>
 <button className="light-red br3 pa3 "  onClick={this.props.longBreak} >Long Break</button>
 
 <h2 className="tc">
