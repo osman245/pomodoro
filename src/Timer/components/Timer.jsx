@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import 'tachyons';
 import TimerHeader from '../../TimerHeader/components/TimerHeader';
-import TimerButton from '../../TimerButton/components/TimerButton';
 import * as timerStates from '../../timerStates';
 import moment from 'moment';
 // import Sound from 'react-sound';
@@ -89,7 +88,7 @@ longBreak() {
 
  this.setState({
 
-  currentTime:moment.duration(10,"minutes"),
+  currentTime:moment.duration(15,"minutes"),
   timerState: timerStates.RUNNING,
    timer: setInterval(this.reduceTimer,1000),
       })
