@@ -20,12 +20,12 @@ return (
 <div>
 <nav class="bg-white db dt-l w-100 border-box pa3 ph5-l ">
   <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
-    <img class="w1" src="./logo_transparent.png" class="dib w2 h2 br-100" alt="Site Name"/>
+    <img  src="./logo_transparent.png" class="dib w2 h2 br-100" alt="Site Name"/>
   </a>
   <div class="db dtc-l v-mid w-100 w-75-l tc tr-l ">
     <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l " href="#1" title="Pomodoro">Pomodoro</a>
     <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l " href="#2" title="Pomodoro Technique">Pomodoro Technique</a>
-    <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" target="_blank" href="https://en.wikipedia.org/wiki/Pomodoro_Technique" title="Pomodoro Wikipedia">Pomodoro Wikipedia</a>
+    <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Pomodoro_Technique" title="Pomodoro Wikipedia">Pomodoro Wikipedia</a>
     <a class="link dim dark-gray f6 f5-l dib" href="id = #3" title="About">About</a>
   </div>
 </nav>   
