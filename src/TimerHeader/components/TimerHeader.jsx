@@ -33,7 +33,7 @@ return (
 
 
 <div id="1" className= "row">
-<h1 className="tc fw3-l fw2-m fw1-ns "> PomodoroTimer</h1>
+<h1 className="tc f3-l f2-m f1-ns "> PomodoroTimer</h1>
 </div>
 
 <div className="row">
@@ -56,7 +56,7 @@ return (
 </div>
 <span className ="bordz"></span>
 <div id="2" className="center  white  ">
-     <h1  className="fw3-l fw2-m fw1-ns">What is the Pomodoro Technique?</h1>
+     <h1  className="f3-l f2-m f1-ns">What is the Pomodoro Technique?</h1>
      <h3 className="ml2 fw1">The pomodoro technique is a worldwide known proven optimal method of studying developed by Francesco Cirillo in the late 1980s.</h3>
      <ul>
       <li>Find a place to study</li>
