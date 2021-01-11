@@ -33,7 +33,7 @@ return (
 
 
 <div id="1" className= "row">
-<h1 className="tc f3-l f2-m f1-ns "> PomodoroTimer</h1>
+<h1 className="tc f1-l f2-m f3-ns "> PomodoroTimer</h1>
 </div>
 
 <div className="row">
@@ -56,8 +56,8 @@ return (
 </div>
 <span className ="bordz"></span>
 <div id="2" className="center  white  ">
-     <h1  className="f3-l f2-m f1-ns">What is the Pomodoro Technique?</h1>
-     <h3 className="ml2 fw1">The pomodoro technique is a worldwide known proven optimal method of studying developed by Francesco Cirillo in the late 1980s.</h3>
+     <h1  className="f1-l f2-m f3-ns">What is the Pomodoro Technique?</h1>
+     <h3 className="f4-l f5-m f6-ns">The pomodoro technique is a worldwide known proven optimal method of studying developed by Francesco Cirillo in the late 1980s.</h3>
      <ul>
       <li>Find a place to study</li>
       <li>Put on the timer for 25 minutes</li>
@@ -70,7 +70,7 @@ return (
 
 
 <footer id="3" className="pv4 ph3 tc bordz">
-     <h1>About</h1>
+     <h1 className="f3">About</h1>
   <a className="link near-black hover-silver dib mh3 tc" href="https://facebook.com" title="Facebook">
     <svg className="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.476-1.195 1.176v1.54h2.39l-.31 2.416h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0" fill-rule="nonzero"/></svg>
     <span className="f6 db">Facebook</span>
