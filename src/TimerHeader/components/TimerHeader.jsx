@@ -16,13 +16,13 @@ const leftPad = (val) => {
 
 
 return (
-<div className="container">
+<div className="container w-100-l w-75-m">
 <div>
-<nav className="bg-white db dt-l w-100-l w-100-m w-75-ns   border-box pa3 ph5-l ">
-  <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="!#"  >
+<nav className="bg-white db dt-l w-100-l w-75-m   border-box pa3 ph5-l ">
+  <a className="db dtc-l v-mid mid-gray link dim  w-25-l tc tl-l mb2 mb0-l" href="!#"  >
     <img  src="./logo_transparent.png" class="dib w2 h2 br-100"  alt="Site Name"/>
   </a>
-  <div className="db dtc-l v-mid w-100-l w-75-l w-50-ns tc tr-l ">
+  <div className="db dtc-l v-mid w-100-l w-75-l  tc tr-l ">
     <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l " href="#1" title="Pomodoro">Pomodoro</a>
     <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l " href="#2" title="Pomodoro Technique">Pomodoro Technique</a>
     <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Pomodoro_Technique" title="Pomodoro Wikipedia">Pomodoro Wikipedia</a>
@@ -33,7 +33,7 @@ return (
 
 
 <div id="1" className= "row">
-<h1 className="tc f1-l f2-m f3-ns "> PomodoroTimer</h1>
+<div className="tc f1-l f3-m  "> PomodoroTimer</div>
 </div>
 
 <div className="row">
@@ -44,7 +44,7 @@ return (
 
 
 
-<div id="2" className=" center pa2 br3   timerborder w-40-l  w-10-m w-5-ns row ">
+<div id="2" className=" center pa2 br3   timerborder w-40-l  w-10-m  row ">
 <h2 className="tc">
 {`${leftPad(this.props.currentTime.get('hours'))}:${leftPad(this.props.currentTime.get('minutes'))}:${leftPad(this.props.currentTime.get('seconds'))}`}</h2>
 
@@ -56,8 +56,8 @@ return (
 </div>
 <span className ="bordz"></span>
 <div id="2" className="center  white  ">
-     <h1  className="f1-l f2-m f3-ns">What is the Pomodoro Technique?</h1>
-     <h3 className="f4-l f5-m f6-ns">The pomodoro technique is a worldwide known proven optimal method of studying developed by Francesco Cirillo in the late 1980s.</h3>
+     <div className="f1-l f3-m">What is the Pomodoro Technique?</div>
+     <div className="f4-l f5-m ">The pomodoro technique is a worldwide known proven optimal method of studying developed by Francesco Cirillo in the late 1980s.</h3>
      <ul>
       <li>Find a place to study</li>
       <li>Put on the timer for 25 minutes</li>
