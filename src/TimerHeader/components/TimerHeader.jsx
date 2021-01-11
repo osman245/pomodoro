@@ -33,7 +33,7 @@ return (
 
 
 <div id="1" className= "row">
-<h1 className="tc fw5-l fw3-m "> PomodoroTimer</h1>
+<h1 className="tc fw3-l fw2-m fw1-ns "> PomodoroTimer</h1>
 </div>
 
 <div className="row">
@@ -55,9 +55,9 @@ return (
 <button className="light-red br3 pa3 grow  bg-white b"  onClick={this.props.stopTimer} >Stop</button>
 </div>
 <span className ="bordz"></span>
-<div id="2" className="center  white ">
-     <h1  className="">What is the Pomodoro Technique?</h1>
-     <h3 className="ml2">The pomodoro technique is a worldwide known proven optimal method of studying developed by Francesco Cirillo in the late 1980s.</h3>
+<div id="2" className="center  white  ">
+     <h1  className="fw3-l fw2-m fw1-ns">What is the Pomodoro Technique?</h1>
+     <h3 className="ml2 fw1">The pomodoro technique is a worldwide known proven optimal method of studying developed by Francesco Cirillo in the late 1980s.</h3>
      <ul>
       <li>Find a place to study</li>
       <li>Put on the timer for 25 minutes</li>
