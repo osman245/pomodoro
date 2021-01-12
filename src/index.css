@@ -20,7 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+.fonty {
   font-family: 'Goldman', cursive;
   color:white;
   font-size: 6em;

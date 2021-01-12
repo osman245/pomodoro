@@ -18,7 +18,7 @@ const leftPad = (val) => {
 return (
 <div className="container w-100">
 <div>
-<nav className="bg-white db dt-l w-100-l w-75-m   border-box pa3 ph5-l ">
+<nav className="bg-white db dt-l w-100-ns w-75   border-box pa3 ph5-l ">
   <a className="db dtc-l v-mid mid-gray link dim  w-25-l tc tl-l mb2 mb0-l" href="!#"  >
     <img  src="./logo_transparent.png" class="dib w2 h2 br-100"  alt="Site Name"/>
   </a>
@@ -33,7 +33,7 @@ return (
 
 
 <div id="1" className= "row">
-<div className="tc f1-l f3-m  "> PomodoroTimer</div>
+<div className="tc f1-l f3-m fonty  "> PomodoroTimer</div>
 </div>
 
 <div className="row">
@@ -44,7 +44,7 @@ return (
 
 
 
-<div id="2" className=" center pa2 br3   timerborder w-40-l  w-10-m  row ">
+<div id="2" className=" center pa2 br3   timerborder w-40-ns w-20 row ">
 <h2 className="tc pa2">
 {`${leftPad(this.props.currentTime.get('hours'))}:${leftPad(this.props.currentTime.get('minutes'))}:${leftPad(this.props.currentTime.get('seconds'))}`}</h2>
 
