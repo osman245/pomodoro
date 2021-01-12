@@ -16,7 +16,7 @@ const leftPad = (val) => {
 
 
 return (
-<div className="container w-100">
+<div className="container w-100-ns  w-50">
 <div>
 <nav className="bg-white db dt-l w-100-ns w-75   border-box pa3 ph5-l ">
   <a className="db dtc-l v-mid mid-gray link dim  w-25-l tc tl-l mb2 mb0-l" href="!#"  >
