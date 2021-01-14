@@ -23,6 +23,13 @@ this.state = {
 
 }
 
+ myFunction(url) {
+  const audio = new Audio(url);
+  audio.play();
+  
+}
+
+
 
 
 setBaseTime = this.setBaseTime.bind(this);
@@ -117,6 +124,7 @@ if (this.state.currentTime.get('hours') === 0
      && this.state.currentTime.get('minutes') === 0 
      && this.state.currentTime.get('seconds') === 0)
      {
+this.playSound('.\alarm.mp3');
 this.completeTimer();
 return;
 }
