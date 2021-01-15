@@ -34,7 +34,7 @@ class TimerHeader extends Component {
 
 
         <div id="1" className="row">
-          <div className="tc f1-l f3-m fonty  "> PomodoroTimer</div>
+          <div className="tc f1-l f3-m fonty"> PomodoroTimer</div>
         </div>
 
         <div className="row">
